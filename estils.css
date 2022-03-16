@@ -1,0 +1,943 @@
+body {
+font-family: 'Montserrat', sans-serif;
+font-size: 10px;
+background-color: #efefef;
+margin: 0;
+}
+
+h1{
+font-size: 30px;
+}
+
+h2{
+margin: 0 10% 1%;
+font-size: 38px;
+}
+
+
+img, video{
+width: 100%;
+height: auto;
+display: block;
+}
+
+div {
+overflow: hidden;
+}
+
+#packaging {
+margin-top: 7%;
+margin-bottom: 4%;
+}
+
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 2% 0 2%;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 27px;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.nav-menu li{
+font-size: 15px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a.logo:hover svg, .xarxes li a:hover svg{
+fill: #34d7f1;
+transition: 0.3s ease-out;
+}
+
+.logo, #Andreu, .nav-menu{
+width:  33.3%;
+}
+
+.menu {
+text-align: right;
+margin-top: 3px;
+font-size: 16px;
+float: left;
+}
+
+#Andreu {
+font-size: 15px;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 1px;
+word-spacing: 5px;
+text-align: center;
+overflow: visible;
+}
+
+#Andreu:hover a, .nav-menu li:hover a{
+color: #34d7f1;
+}
+
+.nav-link:hover, #Andreu a:hover {
+  color: #34d7f1;
+  transition: 0.3s ease-out;
+}
+
+.hamburger{
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 1px;
+  margin: 7px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: black;
+}
+
+.video {
+margin: 0 2%;
+}
+
+#v_tipo {
+width: 45%;
+margin: 2% 27.5%;
+}
+
+
+/*..................................................BODY ...............*/
+
+.img_titol{
+margin-top: 10px;
+}
+
+.info {
+margin: 37px 5% 103px 10%;
+}
+
+.info h1, .info p{
+margin: 0 0 23px 0;
+}
+
+h2 {
+margin-left: 10%;
+}
+
+.info p:last-child {
+margin-bottom: 0;
+}
+
+.info h1 {
+width: 40%;
+float: left;
+}
+
+.info p, #about p{
+font-size: 17px;
+line-height: 26px;
+}
+
+.logo_tipo img {
+width: 50%;
+margin: 0 auto;
+}
+
+.logo_tipo {
+margin-bottom: 70px;
+}
+
+.galeria_fix{
+margin-bottom: 12%;
+}
+
+.lowspace {
+margin-bottom: 2%;
+}
+
+.galeria_fix_r img{
+margin: 1% 1% 0;
+width: 98%;
+display: block;
+}
+
+.mark{
+width: 96%;
+margin: 2% 2% 0;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+.hose1, .hose2{
+width: 33.3%;
+}
+.hose1 img, .hose2 img {
+width: 27%;
+height: 100%;
+margin-top: 15%;
+}
+
+.hose1 img {
+margin-left: 18%;
+}
+
+.hose2 img {
+margin-right: 18%;
+}
+
+.hose1 {
+float: left;
+} 
+
+.hose2 {
+float: right;
+text-align: right;
+}
+
+.img_gif img{
+display: initial;
+}
+
+.gifvt {
+float: left;
+text-align: center;
+width: 33.3%;
+margin-bottom: 5%;
+}
+
+.gifvt img{
+width: 50%;
+}
+
+.galeria4 {
+width: 70%;
+margin: 0 15%;
+}
+
+.galeria4 img{
+width: 47%;
+float: left;
+padding: 2% 1% 0 2%;
+}
+
+.galeria4 img:last-child {
+padding: 2% 2% 0 1%;
+}
+
+.img2 img{
+width: 47%;
+float: left;
+padding: 2% 1% 0 2%;
+}
+
+.img2 img:last-child {
+padding: 2% 2% 0 1%;
+}
+
+#bcntipo_img {
+margin: 2% auto;
+width: 80%;
+}
+
+.uj {
+margin: 2% 0 0;
+}
+
+.uj img {
+width: 75%;
+margin: auto;
+}
+
+.marg_top {
+margin-top: 2%;
+}
+
+.titolet {
+margin: 2% 10% 3%;
+}
+
+#am{
+margin: 0 7% 0;
+}
+
+#am img{
+width: 32%;
+display: block;
+margin: 2% 2% 0 0;
+float: left;
+}
+
+#am img:nth-child(3n+0){
+margin-right: 0;
+}
+
+#am img:last-child{
+margin: 2% 0 1% 34%;
+clear: both;
+}
+
+.proj_m{
+background-color: white;
+margin: 2%;
+}
+
+.b_main {
+position: relative;
+margin: 0;
+width: 100%;
+z-index: 1;
+}
+
+.b_main div{
+background-color: rgb(0, 0, 0, 0.5);
+position: absolute;
+bottom: 0;
+color: white;
+width: 100%;
+font-size: 30px;
+opacity: 0;
+transition: 0.6s;
+display: flex;
+align-items: center;
+height: 100%;
+justify-content: center;
+
+}
+
+.b_main:hover div{
+opacity: 1;
+}
+
+.proj_m:first-child {
+margin-top: 5px;
+}
+
+.bm2, .bm3 {
+width: 49.5%;
+float: left;
+}
+
+.bm2 {
+margin-top: 1%;
+}
+
+div .bm2:first-child {
+margin-right: 1%;
+}
+
+.proj_m .bm3:first-child {
+margin-right: 1%;
+}
+
+.img_r, .galeria_fix_r, .hamburger  {
+display: none;
+}
+
+div.proj_m div.b2 {
+margin-top: 0;
+margin-bottom: 0; 
+}
+
+.filet{
+background-color: #555;
+height: 2px;
+width: 30px;
+margin: auto;
+}
+
+#about, #contact {
+margin: 1% 2% 110px 2%;
+}
+
+#contact {
+margin-bottom: 250px;
+}
+
+#about div, #contact div{
+width: 50%;
+float: left;
+}
+
+#about div img {
+width: 60%;
+margin: auto;
+}
+
+#about h3, #contact h3{
+font-size: 38px;
+margin: 15% 0 6% 0;
+}
+
+#contact h3{
+margin-bottom: 3%;
+}
+
+#about p{
+margin: 0 5% 0 0;
+}
+
+#contact a{
+font-size: 16px;
+text-decoration: underline;
+}
+
+#contact a:hover{
+color: #34d7f1;
+transition: 0.3s ease-out;
+}
+
+form {
+margin-top: 15%;
+}
+
+input, textarea {
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+min-width: 100%;
+max-width: 100%;
+margin-top: 1%;
+padding: 10px;
+border: solid 1px lightgray;
+box-sizing: border-box;
+}
+
+form input:nth-child(1), form input:nth-child(2){
+height: 40px;
+}
+
+input:first-child{
+margin-top: 0;
+}
+
+textarea {
+min-height: 90px;
+}
+
+#enviar{
+width: 136px;
+height: 40px;
+min-width: 0;
+float: right;
+cursor: pointer;
+background-color: #ccc;
+border: none;
+}
+
+#enviar:hover {
+background-color: blue;
+background-color: #aeaeae;
+}
+
+/*..................................................FOOTER ...............*/
+
+
+.xarxes {
+margin: 7% 0 5%;
+}
+
+.xarxes ul{
+padding: 0;
+margin: 1px 5% 0 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 58px;
+float: right;
+}
+
+.xarxes div {
+float: left;
+font-size: 17px;
+margin-left: 5%;
+}
+
+.xarxes a{
+text-decoration: underline;
+}
+
+.xarxes div a:hover{
+color: #34d7f1;
+transition: 0.3s ease-out;
+}
+/*..................................................RESPONSIVE ...............*/
+
+
+@media only screen and (max-width : 1400px) {
+
+      p{
+      font-size: 14px;
+      line-height: 22px;
+      }
+
+      .botons {
+      margin-right: 13px;
+      }
+
+      .menu {
+      font-size: 13px;
+      }
+
+      .nav-menu .nav-item {
+      font-size:  12px;
+      }
+
+      #about p{
+      font-size: 13px;
+      line-height: 20px;
+      }
+
+      #about h3, #contact h3 {
+      font-size: 30px;
+      }
+
+      #about {
+      margin-bottom: 200px;
+      }
+
+      #contact {
+      margin-bottom: 310px;
+      }
+
+}
+
+@media only screen and (max-width : 1024px) {
+      
+      h1, h2 {
+      font-size: 23px;
+      }
+
+      .b_main div{
+      font-size: 20px;
+      }
+
+      .info{
+      margin-right: 10%;
+      }
+
+      .info h1{
+      float: none;
+      width: 100%;
+      }
+
+      .menu {
+      font-size: 13px;
+      }
+       #Andreu {
+      width: 25.3%;
+      font-size: 13px;
+      }
+
+      .nav-menu{
+      gap: 17px;
+      width: 36.3%;
+      }
+
+      .logo {
+      width: 36.3%;
+      }
+
+      .logo_tipo img {
+      width: 80%;
+      }
+
+      .hose1 img, .hose2 img {
+      width: 77px;
+      }
+
+      .gifvt img {
+      width: 85%;
+      }
+
+      .xarxes{
+      margin: 11% 0 70px;
+      }
+
+      .img_titol{
+      margin-top: 5px;
+      }
+
+      .img_titol img {
+      width: 150%;
+      margin: -3% -25% 0;  
+      }
+
+      #titol_uj img{
+      margin-top: 0;
+      }
+
+      #about div img {
+      width: 80%;
+      }
+
+
+}
+
+@media only screen and (max-width : 640px) {
+                .logo, .img_d, .hose1, .hose2 {
+                display: none;
+                }
+
+                .hamburger, .nav-menu, .img_r, .galeria_fix_r {
+                  display: block;
+                }
+
+                .hamburger.active .bar:nth-child(2){
+                  opacity: 0;
+                }
+                .hamburger.active .bar:nth-child(1){
+                  transform: translateY(8px) rotate(45deg);
+                }
+                .hamburger.active .bar:nth-child(3){
+                  transform: translateY(-8px) rotate(-45deg);
+                }
+
+                .nav-menu{
+                  position: absolute;
+                  left: -100%;
+                  top: 70px;
+                  background-color: #efefef;
+                  width: 100%;
+                  transition: 0.3s;
+                  font-size: 16px;
+                  padding: 0;
+
+                }
+
+                .nav-item{
+                border-style: solid none none;
+                border-width: 1px;
+                border-color: #565656;
+                padding: 20px 0 20px 30px;
+                }
+
+                .nav-item:nth-child(3){
+                border-style: solid none;
+                }
+
+                .nav-menu.active{
+                  left: 0;
+                }
+
+                .info p {
+                width: 100%;
+                }
+
+      .info{
+      margin-left: 5%;
+      margin-bottom: 58px;
+      }
+
+      h1, h2 {
+      font-size: 20px;
+      }
+
+      .info {
+      margin-right: 5%;
+      }
+
+      .info p {
+      font-size: 13px;
+      line-height: 20px;
+      }
+
+       #Andreu {
+      width: 100%;
+      font-size: 14px;
+      text-align: left;
+      } 
+
+      .logo_tipo img {
+      width: 88%;
+      }
+
+      .gifvt {
+      width: auto;
+      float: none;
+      }
+
+      .gifvt img {
+      margin-bottom: 20px;
+      }
+      
+      .mark{
+      width: 98%;
+      margin: 1% 1% 0;
+      }
+
+      .mark img {
+      width: 150%;
+      }
+
+      .nomark img {
+      width: 192%;
+      }
+
+      .nomark_mid img{
+      margin-left: -46%;
+      }
+
+      .mark_mid img {
+      margin-left: -25%;
+      }
+
+      #vt_final img{
+      margin-top: -32%;
+      }
+
+      .galeria4 img {
+      width: 100%;
+      padding: 0;
+      }
+
+      .galeria4 img:last-child {
+      padding: 1% 0 0;
+      }
+
+      .galeria4 {
+      width: auto;
+      margin: 1% 1% 0;
+      }
+
+      .lowspace {
+      margin-bottom: 1%;
+      }
+
+      #cram_dades{
+      margin-left: -40%;
+      width: 183%;
+      }
+
+      .img2 img, .img2 img:last-child {
+      width: 98%;
+      padding: 1% 1% 0 1%;
+      }
+
+      .video {
+      margin: 0 1%;
+      }
+
+      #v_tipo{
+      width: 100%;
+      margin: 0 1%;
+      }
+
+      #gif_mapa img{
+      width: 229%;
+      margin-left: -58%;
+      }
+
+      .uj {
+      margin: 1% 1% 0;
+      }
+
+      .uj img {
+      width: 100%;
+      }
+
+      .marg_top{
+      margin-top: 1%;
+      }
+
+      .titolet{
+      margin: 6% 10% 6%;
+      }
+
+      #samarreta_uj img{
+      margin-left: -23%;
+      }
+
+      #titol_uj img{
+      margin-top: 0;
+      }
+
+      #am {
+      margin: 0 1%;
+      }
+
+      #am img{
+      width: 49.5%;
+      margin: 1% 1% 0 0;
+      }
+
+      #am img.am2{
+      margin-right: 0;
+      }
+      
+      #am img:nth-child(3n) {
+      width: 100%;
+      }
+
+      #am img:last-child {
+      width: 100%;
+      margin: 1% 0 0;
+      }
+
+      .navbar {
+      padding: 5px 5% 0 5%;
+      }
+
+      .b_main div{
+      font-size: 15px;
+      }
+
+      .proj_m{
+      margin: 0;
+      background-color: #efefef;
+      }
+
+      #f_bm {
+      width: 303%;
+      margin-left: -71%;
+      }
+
+      #c_bm{
+      width: 193%;
+      margin-left: -64%;
+      }
+
+      #uj_bm {
+      width: 279%;
+      margin-left: -87%;
+      }
+
+      #about {
+      margin: 0 5% 15%;
+      }
+
+      #contact {
+      margin-bottom: 100px;
+      }
+
+      #about div, #contact div{
+      float: none;
+      width: 100%;
+      }
+
+      #about div img #contact div img{
+      width: 100%;
+      }
+
+      #about h3, #contact h3{
+      margin-top: 3%;
+      }
+
+      #about p{
+      margin: 0;
+      }
+
+      #contact h3{
+      margin:17px auto 30px;
+      }
+
+      form{
+      margin-top: 70px;
+      }
+
+       #contact h3 {
+      margin-top: 47px;
+      }
+
+      }
+
+      @media only screen and (max-width : 350px) {
+      
+      #Andreu a{
+      margin-left: 0px;
+      }
+
+      #Andreu {
+      width:  60%;
+      font-size: 12px;
+      }
+
+      .bar {
+      width: 17px;
+      }
+
+      h1, h2 {
+      margin-left: 5%;
+      font-size: 18px;
+      }
+
+      .logo_tipo {
+      margin-bottom: 42px;
+      }
+
+      .xarxes div{
+      margin-top: 50px;
+      font-size: 15px;
+      float: none;
+      }
+
+      .xarxes ul{
+      margin: 60px 5% 0 5%;
+      gap: 100%;
+      width: 15%;
+      float: left;
+      }
+
+      .b_main div{
+      font-size: 10px;
+      }
+
+      #about h3 {
+      font-size: 20px;
+      margin-top: 5%; 
+      }
+
+      #contact h3{
+        font-size: 20px;
+      }
+
+      #contact a{
+      font-size: 12px;
+      }
+
+      input, textarea{
+      margin-top: 3px;
+      }
+
+      #enviar{
+      width: 100%;
+      }
+
+      form{
+      margin-top: 45px;
+      }
+      
+      #contact h3 {
+      margin-top: 30px;
+      }
+
+      #about div img {
+      width: 100%;
+      }
+
+      #about {
+      margin-bottom: 5%;
+      }
+
+      #contact {
+      margin-bottom: 40px;
+      }
+
+}
+     
+
