@@ -32,20 +32,28 @@ margin-bottom: 4%;
 
 .navbar{
   min-height: 70px;
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 5px 2% 0 2%;
 }
 
 .nav-menu{
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: end;
-  justify-content: end;
-  align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 27px;
   padding: 0;
   margin: 0;
@@ -311,21 +319,27 @@ z-index: 1;
 }
 
 .b_main div{
-background-color: rgb(0, 0, 0, 0.5);
-position: absolute;
-bottom: 0;
-color: white;
-width: 100%;
-font-size: 30px;
-opacity: 0;
-transition: 0.6s;
-display: -webkit-flex;
-display: flex;
-align-items: center;
-height: 100%;
-justify-content: center;
-
-}
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  font-size: 30px;
+  opacity: 0;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  }
 
 .b_main:hover div{
 opacity: 1;
@@ -459,17 +473,22 @@ margin: 7% 0 5%;
 }
 
 .xarxes ul{
-padding: 0;
-margin: 1px 5% 0 0;
-display: flex;
-display: -webkit-flex;
-align-items: center;
-justify-content: space-between;
--webkit-justify-content: space-between;
-gap: 58px;
-float: right;
-}
-
+  padding: 0;
+  margin: 1px 5% 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-justify-content: space-between;
+  gap: 58px;
+  float: right;
+  }
 .xarxes div {
 float: left;
 font-size: 17px;
