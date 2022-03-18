@@ -471,6 +471,25 @@ body {
   background-color: blue;
   background-color: #aeaeae;
   }
+
+  #error{
+  margin: 11% 0 0 34%;
+  }
+
+  #error img{
+  width: 44%;
+  margin-bottom: 8%;
+  }
+
+  #error a{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  }
+
+  #error a:hover {
+  color: #34d7f1;
+  }
   
   /*..................................................FOOTER ...............*/
   
@@ -550,6 +569,10 @@ body {
         #contact {
         margin-bottom: 310px;
         }
+
+        #error a{
+        font-size: 23px;
+        }
   
   }
   
@@ -620,6 +643,14 @@ body {
   
         #about div img {
         width: 80%;
+        }
+
+        #error {
+        margin: 11% 0 0 26%;
+        }
+  
+        #error img{
+        width: 64%;
         }
   
   
@@ -892,8 +923,20 @@ body {
         margin-top: 70px;
         }
   
-         #contact h3 {
+        #contact h3 {
         margin-top: 47px;
+        }
+
+        #error {
+        margin: 20% 0 0 20%;
+        }
+
+        #error img{
+        width: 74%;
+        }
+
+        #error a{
+        font-size: 18px;
         }
   
         }
@@ -978,6 +1021,18 @@ body {
   
         #contact {
         margin-bottom: 40px;
+        }
+
+        #error {
+        margin: 20% 0 0 6%;
+        }
+
+        #error img{
+        width: 94%;
+        }
+
+        #error a{
+        font-size: 14px;
         }
   
   }  
