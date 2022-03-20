@@ -461,6 +461,7 @@ body {
   
   textarea {
   min-height: 90px;
+  margin-top: 0;
   }
   
   #enviar{
@@ -471,6 +472,9 @@ body {
   cursor: pointer;
   background-color: #ccc;
   border: none;
+  font-family: montserrat;
+  font-size: 15px;
+  margin-top: 1px;
   }
   
   #enviar:hover {
@@ -995,10 +999,11 @@ body {
   
         #contact h3{
           font-size: 20px;
+          margin-top: 30px;
         }
   
         #contact a{
-        font-size: 12px;
+        font-size: 14px;
         }
   
         input, textarea{
@@ -1011,10 +1016,6 @@ body {
   
         form{
         margin-top: 45px;
-        }
-        
-        #contact h3 {
-        margin-top: 30px;
         }
   
         #about div img {
@@ -1041,8 +1042,9 @@ body {
         font-size: 14px;
         }
 
-        input, textarea {
-        font-size: 11px;
+        form input:nth-child(3), form input:nth-child(4){
+        float: none;
+        width: 100%;
         }
         
   

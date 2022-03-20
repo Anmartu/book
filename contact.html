@@ -47,12 +47,16 @@
 		<a href="mailto:anmartu@gmail.com">anmartu@gmail.com</a>
 		</div>
 		<div>
-		<form action="mailto:anmartu@gmail.com" method="post" enctype="text/plain" value="hola">
-		<input type="text" name="Name " placeholder="Name">
-		<input type="text" name="Email " placeholder="Email">
-		<textarea name="Message " placeholder="Message" class="field"></textarea>
-		<input id="enviar" type="submit" value="Send">
-		</form>
+			<form action="https://formsubmit.co/anmartu@gmail.com" method="POST">
+				<input type="hidden" name="_captcha" value="false">
+				<input type="hidden" name="_next" value="https://t3-silk.vercel.app//thankyou.html">
+				<input type="text" placeholder="Name" name="Nom" required>
+				<input type="text" placeholder="Surname" name="Cognom" required><br>
+				<input type="email" placeholder="Email" name="Correu" required><br>
+				<textarea placeholder="Mensaje" class="field" name="Message" required></textarea>
+			   	<input type="hidden" name="_subject" value="Nou correu!">
+				<button id="enviar" type="submit">Send</button>
+		   </form>
 		</div>
 
 	</div>
