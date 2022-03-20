@@ -73,7 +73,7 @@ body {
     text-decoration: none;
   }
   
-  .navbar a.logo:hover svg, .xarxes li a:hover svg{
+  .navbar .logo a:hover svg, .xarxes li a:hover svg{
   fill: #34d7f1;
   -webkit-transition: 0.3s ease-out;
   -o-transition: 0.3s ease-out;
@@ -99,10 +99,6 @@ body {
   word-spacing: 5px;
   text-align: center;
   overflow: visible;
-  }
-  
-  #Andreu:hover a, .nav-menu li:hover a{
-  color: #34d7f1;
   }
   
   .nav-link:hover, #Andreu a:hover {
@@ -594,7 +590,7 @@ body {
         }
   
         .nav-menu .nav-item {
-        font-size:  12px;
+        font-size:  15px;
         }
   
         #about p{
