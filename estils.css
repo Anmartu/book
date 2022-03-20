@@ -500,6 +500,12 @@ body {
   #error a:hover {
   color: #34d7f1;
   }
+
+  #thanks{
+  font-size: 43px;
+  text-align: center;
+  margin-top: 5%;
+  }
   
   /*..................................................FOOTER ...............*/
   
