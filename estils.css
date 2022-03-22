@@ -528,12 +528,16 @@ body {
   border: 0;
   background-color: white;
   font-size: 19px;
-  margin-top: 10px;
   }
   
   .thanks div button:hover{
   background-color: #c8c8c8;;
-  } 
+  }
+
+  .thanks img{
+  width: 280px;
+  margin: 50px auto;
+  }
 
   /*..................................................FOOTER ...............*/
   
@@ -1097,7 +1101,11 @@ body {
         width: 49%;
         float: right;
         }
-          
+        
+        .thanks img{
+        width: 90%;
+        margin: 30px auto;
+        }
         
   
   }  
