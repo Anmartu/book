@@ -62,6 +62,7 @@ body {
   
   .nav-menu li{
   font-size: 15px;
+  white-space: nowrap;
   }
   
   li{
@@ -656,7 +657,7 @@ body {
         }
   
         .nav-menu{
-        gap: 17px;
+        gap: 13px;
         width: 36.3%;
         }
   
