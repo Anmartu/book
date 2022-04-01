@@ -326,6 +326,7 @@ body {
     width: 100%;
     font-size: 30px;
     opacity: 0;
+    text-align: center;
     -webkit-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
@@ -918,7 +919,7 @@ body {
         }
   
         .b_main div{
-        font-size: 15px;
+        font-size: 16px;
         }
   
         .proj_m{
@@ -1027,10 +1028,6 @@ body {
         gap: 100%;
         width: 15%;
         float: left;
-        }
-  
-        .b_main div{
-        font-size: 10px;
         }
   
         #about h3 {
