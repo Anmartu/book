@@ -443,13 +443,13 @@ body {
           box-sizing: border-box;
   }
   
-  form input:nth-child(3), form input:nth-child(4){
+  form input:nth-child(2), form input:nth-child(3){
   width: 49.5%;
   min-width: 0;
   float: left;
   }
 
-  form input:nth-child(3){
+  form input:nth-child(2){
   margin-right: 1%;
   }
   
@@ -519,20 +519,18 @@ body {
   text-align: center;
   }
 
-  .thanks div button{
-  width: 170px;
-  height: 47px;
+  .thanks div a{
   text-transform: uppercase;
   font-family: montserrat;
   font-weight: 600;
-  cursor: pointer;
-  border-radius: 0;
-  border: 0;
   background-color: white;
   font-size: 19px;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 16px;
   }
   
-  .thanks div button:hover{
+  .thanks div a:hover{
   background-color: #c8c8c8;;
   }
 
@@ -1091,10 +1089,9 @@ body {
         margin-left: 0;
         }
 
-        .thanks div button{
-        width: 128px;
+        .thanks div a{
         font-size: 16px;
-        height: 41px;
+        padding: 8px;
         }
 
         #boto input {
