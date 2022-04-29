@@ -1079,7 +1079,7 @@ body {
         font-size: 14px;
         }
 
-        form input:nth-child(3), form input:nth-child(4){
+        form input:nth-child(2), form input:nth-child(3){
         float: none;
         width: 100%;
         }
