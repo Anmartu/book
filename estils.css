@@ -579,6 +579,8 @@ body {
     grid-gap: 58px;
     gap: 58px;
     float: right;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
     }
   .xarxes div {
   float: left;
