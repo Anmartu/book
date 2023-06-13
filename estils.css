@@ -576,6 +576,7 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-justify-content: space-between;
+    grid-gap: 58px;
     gap: 58px;
     float: right;
     }
