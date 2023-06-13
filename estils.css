@@ -664,6 +664,7 @@ body {
         }
   
         .nav-menu{
+        grid-gap: 13px;
         gap: 13px;
         width: 36.3%;
         }
