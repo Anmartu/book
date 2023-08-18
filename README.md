@@ -1,8 +1,7 @@
 ## Description
 This website includes all my major graphic design projects and recent works. It is a basic code structure that uses HTML, CSS and JavaScript for a visually appealing and responsive experience.
 
-## Author -
-**Andreu MARTORELL**
+## Author - Andreu Martorell
 
 * [andreumartorell.com](https://andreumartorell.com/)
 * [Linkedin](https://www.linkedin.com/in/andreumartorell/)
