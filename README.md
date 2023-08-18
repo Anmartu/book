@@ -4,7 +4,7 @@ This website includes all my major graphic design projects and recent works. It 
 ## Author -
 **Andreu MARTORELL**
 
-* [Book](https://andreumartorell.com/)
+* [andreumartorell.com](https://andreumartorell.com/)
 * [Linkedin](https://www.linkedin.com/in/andreumartorell/)
 * [Behance](https://www.behance.net/andreumartorell)
 * [Instagram](https://www.instagram.com/andreu.martorell/)
@@ -14,11 +14,10 @@ This website includes all my major graphic design projects and recent works. It 
 - [Book](https://andreumartorell.com/)
 
 ## Installation
-This project no need any installation.
+This project doesn't need any installation.
 
 ## Hiring
-If you want to hire me you can contact me at ANMARTU@GMAIL.COM for any consult.
+If you want to hire me you can contact me at anmartu@gmail.com for any consult.
 
 ## Licence
-MIT Public Licence v3.0
-Can't be used commercially.
+MIT Public Licence v3.0, it can't be used commercially.
